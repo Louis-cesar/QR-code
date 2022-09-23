@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: hsl(201, 71%, 89%);
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+}
+.main-1 {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+.img {
+  width: 230px;
+  height: 220px;
+  object-fit: fill;
+  border-radius: 1rem;
+}
+
+.section {
+  margin: 10px;
+  text-align: center;
+}
+
+.text1 {
+  font-weight: bold;
+}
+
+.text2 {
+  color: grey;
+  font-size: 0.75rem;
+}
